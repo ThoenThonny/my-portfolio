@@ -7,6 +7,7 @@ import {
   icons
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import thonny from '../../public/images/thonny.jpg';
 
 const About = ({ darkMode }) => {
   const accentColor = darkMode ? 'text-purple-400' : 'text-amber-600';
@@ -64,7 +65,7 @@ const About = ({ darkMode }) => {
             <div className="relative">
               <div className="relative group">
                 <img
-                  src="/public/images/thonny.jpg"
+                  src={`${thonny}`}
                   alt="Sarita"
                   className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
                 />
