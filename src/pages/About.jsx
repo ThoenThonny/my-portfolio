@@ -64,7 +64,7 @@ const About = ({ darkMode }) => {
             <div className="relative">
               <div className="relative group">
                 <img
-                  src="../../public/images/thonny.jpg"
+                  src="/public/images/thonny.jpg"
                   alt="Sarita"
                   className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
                 />

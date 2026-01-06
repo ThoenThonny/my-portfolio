@@ -195,7 +195,7 @@ const Home = ({ darkMode, setDarkMode }) => {
       title: 'Movie Anima Website', 
       category: 'WEB DESIGN',
       tech: ['HTML', 'CSS', 'No Response'],
-      image: '../../public/images/movie_prj.jpg',
+      image: '/public/images/movie_prj.jpg',
       live: 'https://thoenthonny.github.io/MoviesanimaKh/index.html',
       source: 'https://github.com/ThoenThonny/MoviesanimaKh'
     },
@@ -203,7 +203,7 @@ const Home = ({ darkMode, setDarkMode }) => {
       title: 'Coffee Shop Website', 
       category: 'WEB DESIGN',
       tech: ['HTML', 'CSS', 'bootstrap', 'JS'],
-      image: '../../public/images/cf_prj.jpg',
+      image: '/public/images/cf_prj.jpg',
       live: 'https://thoenthonny.github.io/E-coffee/',
       source: 'https://github.com/ThoenThonny/E-coffee'
     },
@@ -211,7 +211,7 @@ const Home = ({ darkMode, setDarkMode }) => {
       title: 'Laravel Api Project', 
       category: 'Job Portal Website',
       tech: ['React.js', 'Laravel10', 'tailwind CSS', 'Mysql', 'No hosting'],
-      image: '../../public/images/laravel_prj.jpg',
+      image: '/public/images/laravel_prj.jpg',
       live: '#',
       source: 'https://github.com/ThoenThonny/Project-React-Laravel/tree/backend'
     },
