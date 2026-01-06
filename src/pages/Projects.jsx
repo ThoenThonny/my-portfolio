@@ -1,6 +1,9 @@
 import React from 'react';
 import { ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import cf from '../../public/images/cf_prj.jpg';
+import laravel from '../../public/images/laravel_prj.jpg';
+import movie from '../../public/images/movie_prj.jpg';
 
 const Projects = ({ darkMode, setDarkMode }) => {
   const projects = [
@@ -8,7 +11,7 @@ const Projects = ({ darkMode, setDarkMode }) => {
       title: 'Movie Anima Website', 
       category: 'WEB DESIGN',
       tech: ['HTML', 'CSS', 'No Response'],
-      image: '/public/images/movie_prj.jpg',
+      image: `${movie}`,
       live: 'https://thoenthonny.github.io/MoviesanimaKh/index.html',
       source: 'https://github.com/ThoenThonny/MoviesanimaKh'
     },
@@ -16,7 +19,7 @@ const Projects = ({ darkMode, setDarkMode }) => {
       title: 'Coffee Shop Website', 
       category: 'WEB DESIGN',
       tech: ['HTML', 'CSS', 'bootstrap', 'JS'],
-      image: '/public/images/cf_prj.jpg',
+      image: `${cf}`,
       live: 'https://thoenthonny.github.io/E-coffee/',
       source: 'https://github.com/ThoenThonny/E-coffee'
     },
@@ -24,7 +27,7 @@ const Projects = ({ darkMode, setDarkMode }) => {
       title: 'Laravel Api Project', 
       category: 'Job Portal Website',
       tech: ['React.js', 'Laravel10', 'tailwind CSS', 'Mysql', 'No hosting'],
-      image: '/public/images/laravel_prj.jpg',
+      image: `${laravel}`,
       live: '#',
       source: 'https://github.com/ThoenThonny/Project-React-Laravel/tree/backend'
     },
